@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900');
+
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+}
+
+.bg {
+    background-image: url("banner.png");
+
+    height: 80%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p.heading {
+    font-family: Uni Sans;
+    font-size: 56px;
+    color: white;
+    font-weight: 900;
+}
+
+p.heading2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+}
+
+p.heading3 {
+    font-family: Uni Sans;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+p.h1 {
+    font-family: Uni Sans;
+    font-size: 30px;
+    font-weight: 600;
+    color: #424242;
+}

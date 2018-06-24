@@ -11,7 +11,7 @@ body, html {
 .bg {
     background-image: url("banner.png");
 
-    height: 650px;
+    height: 500px;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body, html {
 
 p.heading {
     font-family: Uni Sans;
-    font-size: 56px;
+    font-size: 48px;
     color: white;
     font-weight: 900;
     text-align: center;
@@ -44,7 +44,7 @@ p.heading2 {
 
 p.heading3 {
     font-family: Uni Sans;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 600;
     color: white;
     text-align: center;
@@ -53,7 +53,7 @@ p.heading3 {
 
 p.heading4 {
     font-family: Uni Sans;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 600;
     color: #ffd54f;
     text-align: center;
@@ -68,6 +68,16 @@ p.h1 {
     text-align: center;
 }
 
+p.photo-text {
+    font-family: Uni Sans;
+    font-weight: 600;
+    color: #424242;
+    font-size: 28px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .buttons {
     text-align: center;
 }
@@ -79,6 +89,10 @@ p.h1 {
 
 
 @media (min-width: 992px) {
+    .bg {
+        height: 650px;
+    }
+
     p.heading {
         font-family: Uni Sans;
         font-size: 56px;
@@ -114,6 +128,10 @@ p.h1 {
         font-weight: 600;
         color: #424242;
         text-align: left;
+    }
+
+    p.photo-text {
+        font-size: 40px;
     }
 
     .buttons {
